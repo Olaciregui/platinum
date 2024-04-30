@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: brown;
+    font-family: oswald;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 9px;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+}
+
+main{
+    padding: 30px;
+    
+    color: brown;
+}
+   .GTR-R35{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+    
+   }
+    
+
+.R35{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color: brown;
+    width: 600px;
+    height: 600px;
+}
+img{
+    border-radius: 15px;
+}
+
+.gtrdes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+}
+
+.marca{
+    display: flex;
+    flex-direction: column;
+}

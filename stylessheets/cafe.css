@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: anton ;
+    list-style: none;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/96253198-semillas-de-café-sobre-fondo-de-madera-azul.jpg
+    ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(182, 134, 75);
+    width: 500px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 0 black;
+    
+}
+
+
+hr{
+    width: 400px;
+   height: 1px;
+   border: transparent;
+   background:black;
+
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+}
+
+.cafesmenu{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.menucafe{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+
+.postresmenu{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menupostre{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
